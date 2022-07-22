@@ -56,16 +56,16 @@ public class P19_RemoveNthNodeFromEndOfList{
 	 
 //力扣代码
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+
+//  Definition for singly-linked list.
+  public class ListNode {
+	int val;
+	  ListNode next;
+	  ListNode() {}
+	  ListNode(int val) { this.val = val; }
+	  ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+  }
+
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
     	//执行时间：0 ms 超100.00% 消耗内存：39.2 MB 超97.66%
